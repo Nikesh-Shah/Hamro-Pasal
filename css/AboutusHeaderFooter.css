@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black(245, 244, 244);
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(249, 249, 249);
+    box-shadow: -2px -2px 2px 1px black;
+    z-index: 1000;
+}
+
+
+/* body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+} */
+.aboutus-main-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+section{
+    background-color: rgb(255, 255, 255)
+}
+
+  
+
+.logo {
+    position: relative;
+    left: 30px;
+    scale: 2;
+    width: 100px;
+    height: 30px;
+}
+
+.searchIcon {
+    width: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 65px;
+}
+
+.searchBox {
+    width: 800px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 30px; 
+    position: relative;
+    left: 60px;
+}
+
+.search {
+    margin-top: 25px;
+}
+
+.cartIcon {
+    width: 30px;
+    position: relative;
+    bottom: 40px;
+    background-color: transparent;
+}
+
+.nav1Lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 40px;
+}
+
+.nav2Lists {
+    background-color: green;
+    padding-top: 9px;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+.userIcon{
+    position: relative;
+    left: 60px;
+}
+
+.cartBg {
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+section {
+    padding-top: 140px;
+    width: 100%;
+}
+
+
+
+
+footer {
+    padding-top: 5px;
+    width: 100%;
+    background-color: rgba(161, 202, 219, 0.462);
+    box-shadow: 5px 4px 10px 5px black;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.bg{
+    position: relative;
+}
+/* our services */
+.btn{
+    position: absolute;
+    left: 180px;
+    top: 350px;
+    padding: 10px;
+    
+    border: transparent;
+    background-color: green;
+    color: white;
+    margin-left: -100px;
+
+}
+.boy{
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.div {
+    gap: 400px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 20px 0;
+}
+
+.userIcon:hover, .last img:hover {
+    transition: .2s;
+    transform: scale(1.2);
+}
+.nav2 a{
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+.nav2 a:hover {
+    color: rgb(243, 184, 74);
+}
+/* .nav2 a:visited {
+    color: rgb(243, 184, 74);
+} */
+
+.nav2 a::before{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    height: 3px;
+    width: 0%;
+    background-color: black;
+}
+.nav2 a:hover::before{
+   width: 80%;
+   transition: .5s;
+}
+
+.cartIcon:hover {
+    transition: 1s;
+    animation-name: cartRotation;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+.social{
+    transition: .2s;
+    transform: scale(1.2);
+}
+.aboutus-main-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+@keyframes cartRotation {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(20deg);
+    }
+}  
+
+@keyframes enlarge {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+@keyframes imageChanger{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-1000px);
+    }
+    40%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(-2000px);
+    }
+    60%{
+        transform: translateX(-2000px);
+    }
+    70%{
+        transform: translateX(-3000px);
+    }
+    80%{
+        transform: translateX(-3000px);
+    }
+    90%{
+        transform: translateX(-2000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+@keyframes textslider{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-970%);
+    }
+}

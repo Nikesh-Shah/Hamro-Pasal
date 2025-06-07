@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/product.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+<header>
+    <nav class="nav1">
+        <ul class="nav1Lists">
+                <li><a href="#"><img src="/image/logo.png" alt="logo" class="logo"></a> </li>
+                <div class="search"><li><input type="text" name="searchBox" placeholder="Search...." class="searchBox"></li>
+                <li><img src="/image/search icon.png" alt="search icon"class="searchIcon"></li></div>
+                <li > <a href="#"><img width="40px" src="/image/user.png" alt="user" class="userIcon"></a></li>
+                <div class="cart"> <div class="cartBg">My Cart</div>
+                <li><a href=""><img src="/image/cart icon.png" alt="add to cart" class="cartIcon"></a></li></div>
+        </ul>
+    </nav>
+    <nav class="nav2">
+        <ul  class="nav2Lists">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+
+    <!-- CART -->
+    <div class="cart-slider">
+        <h2 class="cart-title">Your Cart</h2>
+
+        <!-- CONTENT -->
+        <div class="cart-content">
+            
+        </div>
+
+        <!-- TOTAL -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <!-- BUTTON -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- CART CLOSE -->
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+    </div>
+
+</header>
+
+    <section class="productpage">
+
+        <div class="product-heading">
+            <h1>Flash Sales</h1>
+
+            <div class="countdown">
+                <span>Ending in</span>
+                <div class="container-day">
+                    <h3 class="day">Time</h3>
+                    <h3 class="caption">DAYS</h3>
+                </div>
+
+                <div class="container-hour">
+                    <h3 class="hour">Time</h3>
+                    <h3 class="caption">HOURS</h3>
+                </div>
+
+                <div class="container-minute">
+                    <h3 class="minute">Time</h3>
+                    <h3 class="caption">MINS</h3>
+                </div>
+
+                <div class="container-second">
+                    <h3 class="second">Time</h3>
+                    <h3 class="caption">SECS</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/fortuneOil.html">
+                <img src="/productimg/oil5.jpg" alt="oil" class="product-img">
+                </a>
+                <strong class="product-title">Fortune Oil</strong>
+                <span class="quantity">5 liter</span>
+                <span class="price">Rs.1200</span>
+                <del>Rs.1500</del>
+                <span class="new">15% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/cookies.html">
+                <img src="/productimg/cookies.jpg" alt="cookies" class="product-img">
+                </a>
+                <strong class="product-title">Cookies</strong>
+                <span class="quantity">1 Packet</span>
+                <span class="price">Rs.120</span>
+                <del>Rs.160</del>
+                <span class="new">25% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/kukhurirum.html">
+                <img src="/productimg/kukhuri.jpg" alt="khukuri rum" class="product-img">
+                </a>
+                <strong class="product-title">Khukuri Rum</strong>
+                <span class="quantity">800 ml</span>
+                <span class="price">Rs.1500</span>
+                <del>Rs.1750</del>
+                <span class="new">20% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/strawberry.html">
+                <img src="/productimg/strawberry.jpg" alt="strawberry" class="product-img">
+                </a>
+                <strong class="product-title">Strawberry</strong>
+                <span class="quantity">500 gm</span>
+                <span class="price">Rs.100</span>
+                <del>Rs.115</del>
+                <span class="new">15% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/coffee.html">
+                <img src="/productimg/coffee.jpg" alt="coffee" class="product-img">
+                </a>
+                <strong class="product-title">Coffee</strong>
+                <span class="quantity">400 gm</span>
+                <span class="price">Rs.350</span>
+                <del>Rs.400</del>
+                <span class="new">10% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            
+            <div class="product-box">
+                <a href="/HTML/jackDeniel.html">
+                <img src="/productimg/whiskey1.jpg" alt="jack Deniels" class="product-img">
+                </a>
+                <strong class="product-title">Jack Deniels</strong>
+                <span class="quantity">750 ml</span>
+                <span class="price">Rs.8000</span>
+                <del>Rs.9500</del>
+                <span class="new"><i class="fa-solid fa-fire"></i>New</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/buffpickle.html">
+                <img src="/productimg/Buff.png" alt="buff pickle" class="product-img">
+                </a>
+                <strong class="product-title">Buff Pickle</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.750</span>
+                <del>Rs.1000</del>
+                <span class="new">25% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="/HTML/jameson.html">
+                <img src="/productimg/jameson.png" alt="jameson whiskey" class="product-img">
+                </a>
+                <strong class="product-title">Jameson Whiskey</strong>
+                <span class="quantity">1 liter</span>
+                <span class="price">Rs.7500</span>
+                <del>Rs.9500</del>
+                <span class="new">25% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div> 
+
+    </section>
+
+    <!-- categories division-->
+    <section id="category">
+
+        <div class="category-heading">
+            <h2>Product <span>categories</span></h2>
+        </div>
+
+        <div class="category-container">
+
+            <a href="/HTML/packagedfood.html" class="category-box">
+                <img src="/productimg/packagefood.png" alt="bread img">
+                <span>Packaged Food</span>
+            </a>
+
+            <a href="/HTML/meat&dairy.html" class="category-box">
+                <img src="/productimg/meat&dairy.png" alt="fish img">
+                <span>Meat & Dairy</span>
+            </a>
+
+            <a href="/HTML/fruit&veg.html" class="category-box">
+                <img src="/productimg/fruitveg.png" alt="fruit img">
+                <span>Fruit & Veg</span>
+            </a>
+
+            <a href="/HTML/beverage.html" class="category-box">
+                <img src="/productimg/beverages.png" alt="wine img">
+                <span>Beverage</span>
+            </a>
+
+
+        </div>
+
+    </section>
+    
+    <section class="category-list">
+       <div class="food-heading">
+        <h2>Packaged Food</h2>
+       </div>
+
+        <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/chocopiee.jpg" alt="chocopie" class="product-img">
+                <strong class="product-title">Chocopie</strong>
+                <span class="quantity">6 pcs</span>
+                <span class="price">Rs.100</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/dairymilk.jpg" alt="dairymilk" class="product-img">
+                <strong class="product-title">DairyMilk Oreo</strong>
+                <span class="quantity">160 gm</span>
+                <span class="price">Rs.260</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/mix chololate.jpg" alt="mix chololate" class="product-img">
+                <strong class="product-title">Mix Chocolates</strong>
+                <span class="quantity">120 pcs</span>
+                <span class="price">Rs.400</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/cookies.jpg" alt="cookies" class="product-img">
+                <strong class="product-title">Cookies</strong>
+                <span class="quantity">300 gm</span>
+                <span class="price">Rs.150</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/nongshim.jpg" alt="nongshim noodle" class="product-img">
+                <strong class="product-title">Nongshim shin cup Noodle</strong>
+                <span class="quantity">1 packet</span>
+                <span class="price">Rs.250</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/oil5.jpg" alt="oil" class="product-img">
+                <strong class="product-title">Fortune Oil</strong>
+                <span class="quantity">5 liter</span>
+                <span class="price">Rs.1200</span>
+                <del>Rs.1500</del>
+                <span class="new">15% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/bhujia.png" alt="bhujia" class="product-img">
+                <strong class="product-title">Bikaji Bhujia</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.495</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/coffee.jpg" alt="coffee" class="product-img">
+                <strong class="product-title">Coffee</strong>
+                <span class="quantity">270 gm</span>
+                <span class="price">Rs.300</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div> 
+
+         <!-- meat products -->
+         <div class="meat-heading">
+            <h2>Fish & Meat</h2>
+         </div>
+
+         <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/chicken.jpg" alt="chicken" class="product-img">
+                <strong class="product-title">Frozen Chicken</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.400</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/Buff.png" alt="buff pickle" class="product-img">
+                <strong class="product-title">Buff Pickle</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.850</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/rozafish.jpg" alt="can roza fish" class="product-img">
+                <strong class="product-title">Roza Fish</strong>
+                <span class="quantity">750 gm</span>
+                <span class="price">Rs.400</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/sausage.jpg" alt="sausage" class="product-img">
+                <strong class="product-title">Chicken sausage</strong>
+                <span class="quantity">300 gm</span>
+                <span class="price">Rs.200</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div>
+
+         <!-- dairy products -->
+         <div class="dairy-heading">
+            <h2>Dairy Product</h2>
+         </div>
+
+         <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/cheese.jpeg" alt="cheese" class="product-img">
+                <strong class="product-title">Amul Cheese</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.300</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/milk.jpg" alt="milk" class="product-img">
+                <strong class="product-title">Amul Milk</strong>
+                <span class="quantity">1 liter</span>
+                <span class="price">Rs.80</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/ghee.jpg" alt="ghee" class="product-img">
+                <strong class="product-title">Local Ghee</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.800</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/butter.jpg" alt="butter" class="product-img">
+                <strong class="product-title">Butter</strong>
+                <span class="quantity">200 gm</span>
+                <span class="price">Rs.200</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div>
+
+          <!-- fruit products -->
+          <div class="fruit-heading">
+            <h2>Fruits</h2>
+          </div>
+
+         <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/apple.jpg" alt="apple" class="product-img">
+                <strong class="product-title">Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.300</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/strawberry.jpg" alt="strawberry" class="product-img">
+                <strong class="product-title">Strawberry</strong>
+                <span class="quantity">500 gm</span>
+                <span class="price">Rs.100</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/Avocado.png" alt="avocado" class="product-img">
+                <strong class="product-title">Avocado</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.900</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/kiwi.jpg" alt="kiwi" class="product-img">
+                <strong class="product-title">Fresh Kiwi</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.545</span>
+                <span class="new"><i class="fa-solid fa-fire"></i>New</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div>
+
+          <!-- veg products -->
+          <div class="veg-heading">
+            <h2>Vegetable</h2>
+         </div>
+
+         <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/cabbage.jpg" alt="cabbage" class="product-img">
+                <strong class="product-title">Cabbage</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.200</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/onion.jpg" alt="onion" class="product-img">
+                <strong class="product-title">Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.150</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/mushroom.jpg" alt="mushroom" class="product-img">
+                <strong class="product-title">Caneen Mushroom</strong>
+                <span class="quantity">750 gm</span>
+                <span class="price">Rs.350</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/potato.jpg" alt="potato" class="product-img">
+                <strong class="product-title">Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs.280</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div>
+
+         <!-- beverage products -->
+         <div class="beverage-heading">
+            <h2>Beverage</h2>
+        </div>
+
+        <div class="product-container">
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/8848.png" alt="8848 vodka" class="product-img">
+                <strong class="product-title">8848 Vodka</strong>
+                <span class="quantity">750 ml</span>
+                <span class="price">Rs.1000</span>
+                <del>Rs.1150</del>
+                <span class="new">15% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/fanta.jpg" alt="fanta" class="product-img">
+                <strong class="product-title">Fanta</strong>
+                <span class="quantity">350 ml</span>
+                <span class="price">Rs.260</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/apple juice.jpg" alt="apple juice" class="product-img">
+                <strong class="product-title">Apple Juice</strong>
+                <span class="quantity">750 ml</span>
+                <span class="price">Rs.160</span>
+                <del>Rs.200</del>
+                <span class="new">20% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/kukhuri.jpg" alt="khukuri rum" class="product-img">
+                <strong class="product-title">Khukuri Rum</strong>
+                <span class="quantity">800 ml</span>
+                <span class="price">Rs.1500</span>
+                <del>Rs.1750</del>
+                <span class="new">15% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/whiskey1.jpg" alt="jack Deniels" class="product-img">
+                <strong class="product-title">Jack Deniels</strong>
+                <span class="quantity">750 ml</span>
+                <span class="price">Rs.8000</span>
+                <del>Rs.9500</del>
+                <span class="new"><i class="fa-solid fa-fire"></i>New</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/redbull.jpg" alt="redbull" class="product-img">
+                <strong class="product-title">Redbull</strong>
+                <span class="quantity">330 ml</span>
+                <span class="price">Rs.300</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/tuborg.jpg" alt="tuborg" class="product-img">
+                <strong class="product-title">Tuborg</strong>
+                <span class="quantity">330 ml</span>
+                <span class="price">Rs.350</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <img src="/productimg/jameson.png" alt="jameson whiskey" class="product-img">
+                <strong class="product-title">Jameson Whiskey</strong>
+                <span class="quantity">1 liter</span>
+                <span class="price">Rs.7500</span>
+                <del>Rs.9500</del>
+                <span class="new">25% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+         </div> 
+
+
+    </section>
+
+<script src="/app.js"></script>
+    <footer>
+        <div class="first">
+            <div class="div">
+            <ul>
+                <li><label>Customer Care</label></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">How to buy</a></li>
+                <li><a href="#">Customer FeedBack</a></li>
+            </ul>
+            </div>
+            <div class="div">
+            <ul>
+                <li><label>Hamro Pasal</label></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Review and win</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Our Blog</a></li>
+                <li><a href="#">Digital Payments</a></li>
+                <li><a href="#">Meet Our Customers</a></li>
+            </ul>
+        </div>
+        <div class="div">
+            <ul>
+                <li><label>Work With Us</label></li>
+                <li><a href="#">Suppliers</a></li>
+                <li><a href="#">Farmers</a></li>
+                <li><a href="#">Dairy Farmers</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Our Manager</a></li>
+                <li><a href="#">Our Sponsers</a></li>
+                <li><a href="#">Our Awards</a></li>
+                <li><a href="#">Our Motto</a></li>
+            </ul>
+        </div>
+        <div class="downloadApp div">
+            <ul>
+                <li><label>Download our App</label></li>
+                <li><a href="https://www.apple.com/app-store/"><img width="150px" src="/image/app store.png" alt="app store" class="appStore"></a></li>
+                <li><a href="https://play.google.com/store/games?hl=en&gl=US"><img width="150px" src="/image/play store.png" alt="play Store" class="playStore"></a></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="footerLinks div">
+            <ul class="last">
+                <li><p>&COPY; Hamro Pasal | 2024 | All rights reserved.</p></li>
+                <li><a href="#"><img width="45px" src="/image/fb logo.png" alt="fb logo" class="facebook"></a></li>
+                <li><a href="#"><img width="72px" src="/image/insta logo.png" alt="insta logo" class="insta"></a></li>
+                <li><a href="#"><img width="53px" src="/image/linkedin logo.png" alt="linkeden logo" class="linkedin"></a></li>
+                <li><a href="#"><img width="50px" src="/image/twitter logo.png" alt="twitter logo" class="twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

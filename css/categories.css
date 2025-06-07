@@ -1,0 +1,148 @@
+
+.product-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px auto 70px auto;
+}
+section
+{
+    padding-top: 140px;
+    width: 100%;
+}
+.product-box
+{
+    width: 260px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.product-box:hover{
+    box-shadow: 0 0 10px rgba(131, 255, 143, 0.856);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.product-box img
+{
+    width: 90%;
+    height: 180px;
+    object-fit: contain;
+    margin: auto;
+    object-position: center;
+}
+.product-box img:hover 
+{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.product-box strong
+{
+    color: #ec7b4e;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 14px;
+    text-align: center;
+}
+.product-box  del {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #848484;
+}
+.product-box .quantity
+{
+    margin-top: 3px;
+    color: #949494;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.product-box .price 
+{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.product-box .cart-btn
+{
+    width: 80%;
+    height: 40px;
+    background-color: #ecf7ee;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 20px auto 0px auto;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.product-box .cart-btn i
+{
+    margin-right: 10px;
+}
+.product-box .cart-btn:hover
+{
+    background-color: green;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+.product-box .like-btn
+{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #c9c9c9;
+    font-size: 1.3rem;
+}
+.product-box .new 
+{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    color: #fff;
+    padding: 3px 7px;
+    background-color: rgba(248, 99, 69, 0.741);
+    border-radius: 2px;
+    /* box-shadow: 0 0 10px  rgba(248, 69, 0, 0.741); */
+}
+.product-box .new i 
+{
+    color: rgb(252, 48, 48);
+    margin-right: 7px;
+}
+
+/*making top bottom margin 0 from 50px*/
+.category-list
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0px auto;
+}
+.food-heading, .beverage-heading, .dairy-heading, .meat-heading, .fruit-heading, .veg-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.beverage-heading h2,.meat-heading h2, .dairy-heading h2, .food-heading h2, .fruit-heading h2, .veg-heading h2
+{
+    font-weight: bold;
+    color: #4eb060;
+    font-size: 30px;
+    letter-spacing: 1px;
+}

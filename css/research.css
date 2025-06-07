@@ -1,0 +1,340 @@
+/* setting the webpage */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+section{
+    height:100%;
+    width:100%;
+}
+/* container */
+.body{
+    margin:0px 0px;
+    border:1px solid red;
+    background-color:white;
+}
+
+/* middlesection */
+.middlesection{
+    margin:0px 5%;
+}
+/* upper nav */
+.top{
+    border:1px solid black;
+}
+/* lower nav */
+.bottom{
+    border:1px solid black;
+}
+/* Heading */
+.head{
+    height:500px;
+    border:1px solid black;
+    position:relative;
+}
+.design{
+    background-color:#444623;
+    position: absolute;
+    height:180px;
+    width:60px;    
+    left:120px;
+    bottom:-90px;
+}
+.introduction{
+    display:block;
+    background-color:white;
+    position: relative;
+    width:900px;
+    height:240px;
+    left:150px;
+    bottom:-380px;
+    box-shadow:4px 4px 1px  grey;
+}
+#intro h2{
+    font-size:40px;
+    padding:25px;
+    font-weight: bold;
+    padding-left:60px;
+    color: rgb(77, 77, 77);
+}
+#intro p{
+    font-size:20px;
+    padding-left:60px;
+    color:gray;
+}
+/* home page comparision */
+.comparisionandcontent{
+    background-color: white;
+    margin-top:280px;
+    position: relative;
+    /* height:auto; */
+}
+/* home page image */
+.home{
+    width:650px;
+    height:400px;
+    position: absolute;
+    margin-top:40px;
+    box-shadow:6px 6px 4px 4px gainsboro;
+}
+/* design */
+.blinkitdesign{
+    background-color:rgb(25, 163, 117);
+    width:650px;
+    height:425px;
+    position:absolute;
+    margin-left:-6%;
+    margin-top:120px;
+}
+
+.hamrodesign{
+    background-color:navy;
+    width:650px;
+    height:425px;
+    position:absolute;
+    right:-6%;
+    margin-top:120px;
+}
+/* right home image */
+#h2{
+    position: absolute;
+    right:-0.1px;
+}
+/* comparision heading */
+#comparisionheading{
+    margin-left:15%;
+    padding:40px;
+    font-size:50px;
+    font-weight: bold;
+    color:gray;
+}
+/* home page content */
+.contentforhome{
+    padding-left:20px;
+    margin-top:600px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+/* diff and similar heading */
+#diff{
+    color: rgb(25, 163, 117);
+}
+#similar{
+    color:navy;
+}
+.points{
+    padding:20px;
+    width:600px;
+    margin-left:0px;
+    margin-bottom: 60px;
+}
+.points h3{
+    padding:10px;
+    padding-left:0px;
+    font-size:40px;
+    text-decoration: underline;
+}
+.points>ul{
+    font-size:20px;
+}
+/* product page */
+.productpage{
+    background-color:whitesmoke;
+    height: auto;
+    margin:140px 0px;
+    display: flex;
+    box-shadow:2px 2px 2px 2px grey;
+}
+#productimg{
+    padding:20px;
+    width:800px;
+    height:600px;
+}
+.contentforproduct{
+    font-size:20px;
+    padding-left:30px;
+    padding-top:50px;
+    padding-right:30px;
+    color:gray;
+}
+.contentforproduct h2{
+    font-size:50px;
+    text-decoration: underline;
+    color: rgb(60, 159, 60);
+    transition-duration:0.4s;
+}
+.contentforproduct h2:hover{
+    color:green;
+}
+.contentforproduct p{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.contentforproduct ul{
+    padding-left:20px;
+}
+.contentforproduct a{
+    padding-left:20px;
+    text-decoration:none;
+    margin-top:200px;
+    position: absolute;
+    right:100px;
+    color: grey;
+    font-weight: bold;
+    transition-duration:0.4s;
+}
+.contentforproduct a:hover{
+    text-decoration: underline;
+    color:green ;
+}
+/* signup page */
+.signuppage{
+    background-color: white;
+    height: auto;
+    margin:140px 0px;
+    display: flex;
+    box-shadow:2px 2px 2px 2px grey;
+}
+#signupimage{
+    padding:20px;
+    width:800px;
+    height:600px;
+}
+.contentforsignup{
+    font-size:20px;
+    padding-left:30px;
+    padding-top:50px;
+    padding-right:30px;
+}
+.contentforsignup h2{
+    font-size:50px;
+    text-decoration: underline;
+    color:rgb(11, 255, 255);
+    transition-duration:0.4s;
+}
+.contentforsignup h2:hover{
+    color:rgb(0, 225, 225);
+}
+.contentforsignup p{
+    margin-top:40px;
+    margin-bottom:20px;
+    color: gray;
+}
+.contentforsignup ul{
+    padding-left:20px;
+    color: gray;
+}
+.contentforsignup a{
+    padding-left:20px;
+    text-decoration:none;
+    margin-top:180px;
+    position: absolute;
+    left:100px;
+    color:grey;
+    font-weight: bold;
+    transition-duration:0.4s;
+}
+.contentforsignup a:hover{
+    text-decoration: underline;
+    color:rgb(0, 225, 225);
+}
+/* web tools */
+.big{
+    display: inline-block;
+    text-align: center;
+    /* height: auto;   */
+    margin-bottom: 100px; 
+    /* padding:40px 40px; */
+    background-color:whitesmoke;
+    width:100%;
+}
+
+.big h2{
+    display: inline;
+    padding: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+    transition-duration:0.4s;
+    color:grey;
+}
+
+.upper{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.lower{
+    display: flex;
+  
+}
+.extra a{
+    width: 500px;
+    height: 500px;
+}
+.extracontent h4{
+    display:inline;
+    padding:20px;
+    margin-bottom:20px;
+    font-size:40px;
+    text-decoration: underline;
+}
+.extracontent h4 a{
+    color:white;
+    transition-duration:0.8s;
+}
+.fix{
+    position: relative;
+    right: 105px;
+}
+.large{
+    width: 500px;
+    height: 500px;
+}
+.extracontent{
+    height: 500px;
+    width: 500px;
+    /* margin-left:20px; */
+    /* padding: 20px; */
+    font-size:20px;
+    margin-top:40px;
+    color: white;
+    background-color:rgba(00,00,00,0.5);
+    text-align: center;
+    padding-top: 90px;
+    opacity:0;
+    transition-duration:0.8s;
+}
+.extrapassage ul{
+    padding-left:50px;
+    
+}
+.extrapassage p{
+    margin-left:10px;
+    justify-content: center;
+}
+.extracontent:hover{
+    opacity:1;
+}
+.eimg{
+    position: absolute;
+    margin-top:20px;
+}
+.eimg img{
+    width: 500px; 
+}
+.extracontent{
+    position: relative;   
+
+}
+.extrapassage{
+    margin-top:60px;
+}
+
+body{
+    width: 100%;
+}

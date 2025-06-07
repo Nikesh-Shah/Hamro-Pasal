@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="/CSS/product.css"> -->
+    <link rel="stylesheet" href="/CSS/productdetails.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+<header>
+    <nav class="nav1">
+        <ul class="nav1Lists">
+                <li><a href="#"><img src="/image/logo.png" alt="logo" class="logo"></a> </li>
+                <div class="search"><li><input type="text" name="searchBox" placeholder="Search...." class="searchBox"></li>
+                <li><img src="/image/search icon.png" alt="search icon"class="searchIcon"></li></div>
+                <li > <a href="#"><img width="40px" src="/image/user.png" alt="user" class="userIcon"></a></li>
+                <div class="cart"> <div class="cartBg">My Cart</div>
+                <li><a href=""><img src="/image/cart icon.png" alt="add to cart" class="cartIcon"></a></li></div>
+        </ul>
+    </nav>
+    <nav class="nav2">
+        <ul  class="nav2Lists">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+
+    <!-- CART -->
+    <div class="cart-slider">
+        <h2 class="cart-title">Your Cart</h2>
+
+        <!-- CONTENT -->
+        <div class="cart-content">
+            
+        </div>
+
+        <!-- TOTAL -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <!-- BUTTON -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- CART CLOSE -->
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+    </div>
+
+</header>
+
+<section id="product-details">
+     <div class="d-product-img">
+        <img src="/productimg/kukhuri.jpg" alt="kukhuri rum" class="product-img">
+     </div>
+
+     <div class="d-product-text">
+
+        <span class="category">Beverage > Rum </span>
+        <!-- title -->
+        <strong class="product-title">kukhuri Rum</strong>
+        <span class="quantity">800 ml</span>
+        <span class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <span>450 Review's</span>
+        </span>
+        
+        <!-- details -->
+        <p>
+            Born in the Himalayas, Khukri XXX Rum is an exceptional dark blend, distilled with rich molasses,
+             Himalayan spring water, and natural artisanal flavours. Aged among snowy peaks in casks born from the region-exclusive Shorea Robusta tree,
+             every sip of Khukri XXX Rum delivers a complex taste with rich natural flavours, earthy undertones and a smooth, long caramel finish.
+        </p>
+
+            <!-- price -->
+            <span class="price">Rs.1500</span>
+            <del>Rs.1750</del>
+
+            <!-- quantity -->
+            <div class="number">
+                <span>Quantity</span>
+                <input type="number" min="1" value="1"/>
+            </div>
+
+            <!-- add to cart -->
+            <span class="cart-btn">
+                <i class="fas fa-shopping-bag"></i> Add To Cart
+            </span>
+     </div>
+
+</section>
+
+<script src="/app.js"></script>
+    <footer>
+        <div class="first">
+            <div class="div">
+            <ul>
+                <li><label>Customer Care</label></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">How to buy</a></li>
+                <li><a href="#">Customer FeedBack</a></li>
+            </ul>
+            </div>
+            <div class="div">
+            <ul>
+                <li><label>Hamro Pasal</label></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Review and win</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Our Blog</a></li>
+                <li><a href="#">Digital Payments</a></li>
+                <li><a href="#">Meet Our Customers</a></li>
+            </ul>
+        </div>
+        <div class="div">
+            <ul>
+                <li><label>Work With Us</label></li>
+                <li><a href="#">Suppliers</a></li>
+                <li><a href="#">Farmers</a></li>
+                <li><a href="#">Dairy Farmers</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Our Manager</a></li>
+                <li><a href="#">Our Sponsers</a></li>
+                <li><a href="#">Our Awards</a></li>
+                <li><a href="#">Our Motto</a></li>
+            </ul>
+        </div>
+        <div class="downloadApp div">
+            <ul>
+                <li><label>Download our App</label></li>
+                <li><a href="https://www.apple.com/app-store/"><img width="150px" src="/image/app store.png" alt="app store" class="appStore"></a></li>
+                <li><a href="https://play.google.com/store/games?hl=en&gl=US"><img width="150px" src="/image/play store.png" alt="play Store" class="playStore"></a></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="footerLinks div">
+            <ul class="last">
+                <li><p>&COPY; Hamro Pasal | 2024 | All rights reserved.</p></li>
+                <li><a href="#"><img width="45px" src="/image/fb logo.png" alt="fb logo" class="facebook"></a></li>
+                <li><a href="#"><img width="72px" src="/image/insta logo.png" alt="insta logo" class="insta"></a></li>
+                <li><a href="#"><img width="53px" src="/image/linkedin logo.png" alt="linkeden logo" class="linkedin"></a></li>
+                <li><a href="#"><img width="50px" src="/image/twitter logo.png" alt="twitter logo" class="twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+section {
+    padding-top: 140px;
+    width: 100%;
+}
+#product-details {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    max-width: 1000px;
+    width: 90%;
+    margin: 30px auto 50px auto;
+}
+.d-product-img {
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.d-product-img img {
+    width: 100%;
+    height: 90%;
+    max-height: 350px;
+    object-fit: contain;
+    object-position: center;
+}
+.d-product-img img:hover 
+{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+.d-product-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    justify-content: flex-start;
+}
+.d-product-text .category {
+    color: green;
+    font-size: 16px;
+}
+.d-product-text strong {
+    color: #1b1b1b;
+    font-weight: 800;
+    font-size: 28px;
+}
+.d-product-text .quantity
+{
+    margin-top: 3px;
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.d-product-text .rating {
+    color: #f3a006;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.d-product-text .rating span {
+    color: #161616;
+    margin-left: 2px;
+    font-weight: 500;
+}
+.d-product-text p {
+    color: #161616;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.d-product-text .price {
+    color: #181818;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.d-product-text del {
+    color: rgb(107, 107, 107);
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.d-product-text .number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.d-product-text .number input {
+    width: 60px;
+    height: 40px;
+    background-color: #e8e8e8;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.d-product-text .cart-btn {
+    width: 80%;
+    height: 40px;
+    background-color: #ecf7ee;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 20px auto 0px auto;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.d-product-text .cart-btn i
+{
+    margin-right: 10px;
+}
+.d-product-text .cart-btn:hover
+{
+    background-color: green;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
