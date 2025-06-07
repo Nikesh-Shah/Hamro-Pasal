@@ -1,0 +1,255 @@
+/* Our team css */
+.container{
+    margin: 10px 0;
+
+}
+
+form label, form input{
+    font-size: 15px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.gender{
+    width: 20px;
+}
+.name{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+}
+.submit button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.container h1::after{
+    content: '';
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+/* "*" tag is used because its style in all its element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.card{
+    position: relative;
+    width: 340px;
+    height: 450px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    background: radial-gradient(#777,#bbb);
+}
+
+.card .circle{
+    position: absolute;
+    top: -190px;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%);
+    clip-path: circle();
+    background: radial-gradient(#777);
+}
+
+.card .circle::before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 20px rgba(255,0,0,0.5);
+    border-radius: 50%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.circle .imgbox{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    width: 340px;
+    height: 310px;
+}
+
+/* adjusting image in image box */
+.imgbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    
+}
+
+/* Making images to hover */
+.imgbox img:hover{
+    transform: scale(1.2);
+}
+
+.card .content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.content a{
+    padding: 5px 4px;
+    color: #fff;
+
+    margin-bottom: 1px;
+    margin-top: -10%;
+}
+
+.content a:hover{
+    color: rgb(51, 51, 174);
+    transform :scale(1.2)
+}
+
+
+.content .tetx-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content .tetx-icon h4{
+    color: rgb(40, 40, 160);
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+.content .tetx-icon a{
+    display: flex;
+    width: -100%;
+    margin-bottom: -65px;
+    color: black;
+
+}
+.content .tetx-icon a:hover{
+    color: rgb(100, 100, 138);
+}
+
+
+._main h2{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    
+}
+
+._main h2::after{
+    content: '';
+    background: #333;
+    
+    height: 3px;
+    width: 120px;
+    margin: 10px auto;
+}
+
+
+
+.fedback a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.fedback a:hover{
+     background: rgb(232, 77, 77);
+     transform : scale(1.2, 1.2)
+}
+
+.fedback a{
+    margin-right: 10px;
+    margin-left: -100px;
+}
+
+.shopnow h2 span{
+    color: #ca1515;
+    font-size: 40px;
+}
+
+.shopnow h2{
+    margin-left: 10px;
+    margin-right: 300px;
+    font-size: 30px;
+}
+
+.mission h3{
+    font-size: medium;
+    font-size: 30px;
+}
+
+
+.missions{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left span{
+    color: rgb(97, 210, 97);
+    
+}
+
+.left h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 700px;
+    box-shadow: 0px 1px 6px rgb(180, 202, 147);
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+
+.right p{
+    width: 400px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

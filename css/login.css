@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+section{
+    display: flex;
+    background-color:white;
+    font-family:Poppin;
+    border: 1px solid black;
+}
+#google
+    {
+        margin-top:18px;
+    }
+.left
+    {
+        width:450px;
+    }
+.container
+    {
+        width:371px;
+        margin-left:120px;
+        margin-top:120px;
+        border-radius:6px;
+    } 
+#line 
+    {
+        margin-top: 20px;
+        margin-left:30%;
+    }
+h4
+{
+    font-size:30px;
+}
+
+#signin
+    {
+        width: 365px;
+    }
+label
+    {
+        font-size:18px;
+    }
+.signin
+    {
+        margin-top:25px;
+    }
+input
+    {
+        padding:12px;
+        border-radius:6px;
+        border:1px solid black;
+        margin-top:4px;
+        width:340px;
+        margin-bottom: 10px;
+    }
+button
+    {
+        padding:10px;
+        width:340px;
+        border-radius: 30px;
+        font-size:15px;
+        background-color: black;
+        color:white;
+        transition-duration:0.4s;
+        transform-style: flat;
+    }
+button:hover
+    {
+        background-color: rgba(0, 0,0,0.6);
+    }
+#forgotpassword
+    {
+        text-decoration:none;
+    }
+#account
+    {
+        margin-left:23%;
+        margin-top:18px;
+    }
+#account a
+    {
+        font-weight: bold;
+        color: black;
+    }
+.left img
+    {
+        width: 450px;
+        height:100%;
+    } 
+  

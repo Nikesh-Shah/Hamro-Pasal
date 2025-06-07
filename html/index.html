@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/productdetails.css">
+    <link rel="stylesheet" href="/css/productstyle.css">
+    <link rel="stylesheet" href="/css/homeproduct.css">
+    
+    <style>
+        /* After using span tag  */
+        .missions .right span{
+            color: black;
+            font-size: 21px;
+        }
+        .missions{
+         width: 100%;
+         display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 20px;
+         }
+.missions span{
+    color: #ca1515;
+}
+
+.missions h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 600px;
+    box-shadow: 0px 1px 6px rgb(180, 202, 147);
+    margin: 20px;
+    padding: 20px;
+   
+}
+.hamro-pasal h1{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul class="nav1Lists">
+                <li><a href="/html/landing.html"><img src="/image/logo.png" alt="logo" class="logo"></a> </li>
+                <div class="search"><li><input type="text" name="searchBox" placeholder="Search...." class="searchBox"></li>
+                <li><img src="/image/search icon.png" alt="search icon"class="searchIcon"></li></div>
+                <li > <a href="/html/login.html"><img width="40px" src="/image/user.png" alt="user" class="userIcon"></a></li>
+                <div class="cart"> <div class="cartBg">My Cart</div>
+                <li><a href=""><img src="/image/cart icon.png" alt="add to cart" class="cartIcon"></a></li></div>
+            </ul>
+        </nav>
+        <nav class="nav2">
+            <ul  class="nav2Lists">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/html/product.html">Products</a></li>
+                <li><a href="/html/Research.html">Research</a></li>
+                <li><a href="/html/blog.html">Our Blog</a></li>
+                <li><a href="/html/aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+         <!-- CART -->
+    <div class="cart-slider">
+        <h2 class="cart-title">Your Cart</h2>
+
+        <!-- CONTENT -->
+        <div class="cart-content">
+            
+        </div>
+
+        <!-- TOTAL -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <!-- BUTTON -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- CART CLOSE -->
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+    </div>
+    </header>
+    
+    <section> 
+        <!-- vertical nav -->
+        <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+                 <div class="dropdown-content">
+                     <a href="/html/packagedfood.html">Packaged Food</a>
+                     <a href="/html/meat&dairy.html">Meat & Dairy</a>
+                     <a href="/html/fruit&veg.html">Fruits & Veg</a>
+                     <a href="/html/beverage.html">Beverage</a>
+                 </div>
+        </div>
+     
+     <div class="container">
+        <div class="left-slider" onclick="changeImage(-1)">&#9668;</div>
+        <img src="/image/banner1.png" alt="" class="bannerImage">
+        <div class="right-slider" onclick="changeImage(1)">&#9658;</div>
+    </div>
+  
+        <!-- small banner -->
+        <div class="small-banner">
+            <div class="s-banner1" >
+                
+                <img src="/image/baby products.png"alt="" class="bg">
+                <a href="/html/product.html"><button class="btn-banner1">order Now</button></a>
+            </div>
+            <div class="s-banner2">
+                <img src="/image/small banner books.png" alt="">
+                <a href="/html/product.html"><button class="btn-banner2">order Now</button></a>
+            </div>
+            <div class="s-banner3">
+                <img src="/image/beauty banner small.png" alt="">
+                <a href="/html/product.html"><button class="btn-banner3">order Now</button></a>
+            </div>
+        </div>
+
+<div class="home-products"> 
+         <!-- small banner -->
+         <h1 class="heading">New <span>Arrivals</span></h1>
+
+<!-- product container -->
+         <div class="product-container">
+            <button class="slider-nav prev">«</button> <!-- Unicode for left arrow -->
+            <div class="product-slider">
+                <!--box-->
+                <div class="product-box">
+                    <a href="strawberry.html">
+                        <img src="/image/productimg/strawberry.jpg" alt="strawberry" class="product-img">
+                    </a>
+                    <strong class="product-title">Strawberry</strong>
+                    <span class="quantity">500 gm</span>
+                    <span class="price">Rs.100</span>
+                    <del>Rs.115</del>
+                    <span class="new">15% OFF</span>
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+                <!-- product box -->
+                <div class="product-box">
+                    <a href="cookies.html">
+                        <img src="/image/productimg/cookies.jpg" alt="cookies" class="product-img">
+                    </a>
+                    <strong class="product-title">Cookies</strong>
+                    <span class="quantity">1 Packet</span>
+                    <span class="price">Rs.120</span>
+                    <del>Rs.160</del>
+                    <span class="new">25% OFF</span>
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+    <!-- product box -->
+                <div class="product-box">
+                    <a href="kukhurirum.html">
+                    <img src="/image/productimg/kukhuri.jpg" alt="khukuri rum" class="product-img">
+                    </a>
+                    <strong class="product-title">Khukuri Rum</strong>
+                    <span class="quantity">800 ml</span>
+                    <span class="price">Rs.1500</span>
+                    <del>Rs.1750</del>
+                    <span class="new">20% OFF</span>
+                    <!--cart-btn------->
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+    <!-- product box -->
+                <div class="product-box">
+                    <a href="fortuneOil.html">
+                    <img src="/image/productimg/oil5.jpg" alt="oil" class="product-img">
+                    </a>
+                    <strong class="product-title">Fortune Oil</strong>
+                    <span class="quantity">5 liter</span>
+                    <span class="price">Rs.1200</span>
+                    <del>Rs.1500</del>
+                    <span class="new">15% OFF</span>
+                    <!--cart-btn------->
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+    <!-- product box -->
+                <div class="product-box">
+                    <a href="coffee.html">
+                    <img src="/image/productimg/coffee.jpg" alt="coffee" class="product-img">
+                    </a>
+                    <strong class="product-title">Coffee</strong>
+                    <span class="quantity">400 gm</span>
+                    <span class="price">Rs.350</span>
+                    <del>Rs.400</del>
+                    <span class="new">10% OFF</span>
+                    <!--cart-btn------->
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+    <!-- product box -->
+                <div class="product-box">
+                    <a href="jackDeniel.html">
+                    <img src="/image/productimg/whiskey1.jpg" alt="jack Deniels" class="product-img">
+                    </a>
+                    <strong class="product-title">Jack Deniels</strong>
+                    <span class="quantity">750 ml</span>
+                    <span class="price">Rs.8000</span>
+                    <del>Rs.9500</del>
+                    <span class="new"><i class="fa-solid fa-fire"></i>New</span>
+                    <!--cart-btn------->
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+    <!-- product box -->
+                <div class="product-box">
+                    <img src="/image/productimg/chocopiee.jpg" alt="chocopie" class="product-img">
+                    <strong class="product-title">Chocopie</strong>
+                    <span class="quantity">6 pcs</span>
+                    <span class="price">Rs.100</span>
+                    <!--cart-btn------->
+                    <span class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i> Add To Cart
+                    </span>
+                    <!--like-btn------->
+                    <a href="#" class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- pagination -->
+            <div class="pagination">
+               <!-- unicode -->
+            </div>
+            <button class="slider-nav next">»</button> <!-- Unicode for right arrow -->
+        </div>
+</div>
+        <!--most-popular    -->
+     <div class="most-popular">      
+        <h1 class="heading">Most<span>Popular</span></h1>
+     </div>
+<div class="product-class">
+    <div class="product-container">
+            <!--box---------->
+            <!--box---------->
+            <div class="product-box">
+                <a href="jameson.html">
+                <img src="/image/productimg/jameson.png" alt="jameson whiskey" class="product-img">
+                </a>
+                <strong class="product-title">Jameson Whiskey</strong>
+                <span class="quantity">1 liter</span>
+                <span class="price">Rs.7500</span>
+                <del>Rs.9500</del>
+                <span class="new">25% OFF</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <!--box---------->
+            <div class="product-box">
+                <a href="coffee.html">
+                <img src="/image/productimg/coffee.jpg" alt="coffee" class="product-img">
+                </a>
+                <strong class="product-title">Coffee</strong>
+                <span class="quantity">270 gm</span>
+                <span class="price">Rs.300</span>
+                <!--cart-btn------->
+                <span class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add To Cart
+                </span>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+         <!--box---------->
+         <div class="product-box">
+            <a href="jackDeniel.html">
+            <img src="/image/productimg/whiskey1.jpg" alt="jack Deniels" class="product-img">
+            </a>
+            <strong class="product-title">Jack Deniels</strong>
+            <span class="quantity">750 ml</span>
+            <span class="price">Rs.8000</span>
+            <del>Rs.9500</del>
+            <span class="new"><i class="fa-solid fa-fire"></i>New</span>
+            <!--cart-btn------->
+            <span class="cart-btn">
+                <i class="fas fa-shopping-bag"></i> Add To Cart
+            </span>
+            <!--like-btn------->
+            <a href="#" class="like-btn">
+                <i class="far fa-heart"></i>
+            </a>
+        </div>
+<!-- product box -->
+        <div class="product-box">
+            <a href="strawberry.html">
+            <img src="/image/productimg/strawberry.jpg" alt="strawberry" class="product-img">
+            </a>
+            <strong class="product-title">Strawberry</strong>
+            <span class="quantity">500 gm</span>
+            <span class="price">Rs.100</span>
+            <del>Rs.115</del>
+            <span class="new">15% OFF</span>
+            <!--cart-btn------->
+            <span class="cart-btn">
+                <i class="fas fa-shopping-bag"></i> Add To Cart
+            </span>
+            <!--like-btn------->
+            <a href="#" class="like-btn">
+                <i class="far fa-heart"></i>
+            </a>
+        </div>
+      </div> 
+    </div>
+</div> 
+
+    </section>
+    <!-- our services section -->
+        <div>
+            <!-- our services -->
+            <h1 class="heading">Our <span>Services</span></h1>
+                 <div class="services">
+                     <div class="delivery1" >
+                    <img src="/image/deliverytemplate.png" alt="" class="bg">
+                    <img src="/image/deliveryboy.png" alt="" class="boy">
+                    <a href="/html/product.html"><button class="btn-services1">Shop Now</button></a>
+                 </div>
+                 <div class="delivery2">
+                    <img src="/image/services.png" alt="">
+                    <a href="/html/product.html"><button class="btn-services2">Shop Now</button></a>
+                 </div>
+                 <div class="delivery3">
+                    <img src="/image/customizable orders.png" alt="">
+                    <a href="/html/product.html"><button class="btn-services3">Shop Now</button></a>
+                 </div>
+             </div>
+        </div>
+        <!-- our services section -->
+
+        <!-- about us section -->
+  <div class="other-page">  
+    <div class="storeDesc">
+        <div class="hamro-pasal">
+            <b><h1> From <span> Us </span></h1></b>
+            <br>
+            <div class="missions">
+                    <h2>Delivering<br><span><b>TOP-QUALITY GROCERIES</b></span><br>to every corner of Nepal</h2>
+            </div>
+            <div class="content">
+                <i>
+                    <p class="paragraph">Welcome to Hamro Pasal, your one-stop destination for all your grocery needs! At Hamro Pasal, we pride ourselves on offering a wide range of high-quality products that cater to every household requirement. From fresh fruits and vegetables to pantry staples, dairy products, and household essentials, we've got you covered. Our mission is to provide our customers with the freshest produce and finest goods, sourced from trusted suppliers and vendors. With a commitment to quality, convenience, and affordability, Hamro Pasal is not just a grocery store; it's a trusted partner in your everyday life. Experience the joy of shopping with us and let Hamro Pasal be your go-to destination for all things grocery!</p>
+                </i>
+                <a href="/html/aboutus.html" id="about-more" onclick="toggleMore()">Read More</a>
+            </div>
+         </div>
+    </div>
+         <!-- about us section -->
+          <!-- research -->
+        <div class="storeDesc2">   
+            <div>
+                <b><h1> Our <span> Blogs </span></h1></b>
+            </div>
+            <br>
+                <div class="blog-page">
+                <img src="/image/blog.image/technology.jpg" height="260" ;weight="100" ;>
+                  <p> <b> <span>Recent</span> Technology </b></p>
+                  <p> Technology includes online platforms with personalized recommendations...</p>
+                  <a href="/html/blog.html" id="blog-more">Subscribe to get more</a>
+               </div>
+         </div> 
+</div>  
+            <!--FAQ section  -->
+    <!-- <section> -->
+        <div class="faq-div"> 
+            <label class="faq-box">Frequently Asked Questions</label>
+            <button class="faq-btn">What are your store hours?</button>
+                 <div class="question">
+                     <p>Our store is open from 8:00 AM to 10:00 PM, Monday through Sunday.</p>
+
+                 </div>
+            <button class="faq-btn"> Do you offer home delivery services?</button>
+               <div class="question">
+                     <p>Yes, we offer home delivery services. You can place your order online or through our mobile app, and we will deliver it to your doorstep.</p>
+
+                 </div>
+            <button class="faq-btn">How can I find out if a product is in stock?</button>
+                <div class="question">
+                     <p>You can check product availability on our website or mobile app. Additionally, you can call our customer service line for assistance.
+
+                     </p>
+ 
+                 </div>
+            <button class="faq-btn">Do you have a loyalty program?</button>
+                <div class="question">
+                     <p>Yes, we have a loyalty program. You can sign up in-store or online to earn points on your purchases, which can be redeemed for discounts and special offers.</p>
+  
+                </div>  
+            <button class="faq-btn">Are there any special discounts for senior citizens or students?</button>
+                <div class="question">
+                     <p>Yes, we offer a 10% discount for senior citizens on Tuesdays and a 10% discount for students with a valid student ID on Thursdays.</p>
+ 
+                </div> 
+            <button class="faq-btn">Can I return or exchange items?</button>
+                <div class="question">
+                     <p>Yes, you can return or exchange items within 30 days of purchase with a receipt. Perishable goods and opened items are subject to certain conditions.</p>
+ 
+                </div>     
+        </div>
+        <!-- review section -->
+        <section class="review" id="review">
+            <h1 class="heading">Customer's <span>Review</span></h1>
+            <div class="reviewButton">
+                <button id="prevButton">&#9664</button>
+                <button id="nextButton">&#9654</button>
+            </div>
+            <!-- review slider -->
+            <div class="review-slider" id="slider">
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/review1.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Sita</h3>
+                    <span style="color: #FFD700;" >&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/review2.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Nabin</h3>
+                    <span style="color: #FFD700;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/review3.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Sita</h3>
+                    <span style="color: #FFD700;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/review4.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Aayush</h3>
+                    <span style="color: #FFD700;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/aboutus.Image/member_4.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Shraddha</h3>
+                    <span style="color: #FFD700;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                <div class="box">
+                    <!-- Review content -->
+                    <img src="/image/aboutus.Image/member_5.jpg" alt="" class="img-customers">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti a soluta, veritatis quo dolore corporis at voluptas totam sit!</p>
+                    <h3>Munal</h3>
+                    <span style="color: #FFD700;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+               
+            </div>
+            <!-- feedback -->
+            <div class="indexfeedback">
+                <h2><span>FeedBack !</span><br>Feel free to provide your input regarding our website!</h2>
+                 <div class="indexfeedbackform">
+                  <a href="/html/feedback.html">Feedback form</a>
+                 </div> 
+            </div>
+        </section>
+
+    <!-- </section> -->
+    <footer>
+        <div class="first">
+            <div class="div">
+            <ul>
+                <!-- customer cares -->
+                <li><label>Customer Care</label></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Help Center</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">How to buy</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Customer FeedBack</a></li>
+            </ul>
+            </div>
+            <div class="div">
+            <ul>
+                <!-- links to follow HP -->
+                <li><label>Hamro Pasal</label></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">About Us</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Career</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Review and win</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Privacy Policy</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Terms and Conditions</a></li>
+                <li><a href="/html/blog.html">Our Blog</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Digital Payments</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Meet Our Customers</a></li>
+            </ul>
+        </div>
+        <div class="div">
+            <ul>
+                <!-- links to connect us -->
+                <li><label>Work With Us</label></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Suppliers</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Farmers</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Dairy Farmers</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Our Team</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Our Manager</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Our Sponsers</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Our Awards</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057">Our Motto</a></li>
+            </ul>
+        </div>
+        <!-- app link -->
+        <div class="downloadApp div">
+            <ul>
+                <li><label>Download our App</label></li>
+                <li><a href="https://www.apple.com/app-store/"><img width="150px" src="/image/app store.png" alt="app store" class="appStore"></a></li>
+                <li><a href="https://play.google.com/store/games?hl=en&gl=US"><img width="150px" src="/image/play store.png" alt="play Store" class="playStore"></a></li>
+            </ul>
+        </div>
+        </div>
+<!-- footer links -->
+        <div class="footerLinks div">
+            <ul class="last">
+                <!-- copyright and links -->
+                <li><p>&COPY; Hamro Pasal | 2024 | All rights reserved.</p></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559855186057"><img width="45px" src="/image/fb logo.png" alt="fb logo" class="facebook"></a></li>
+                <li><a href="https://www.instagram.com/itsnikesh_11/"><img width="72px" src="/image/insta logo.png" alt="insta logo" class="insta"></a></li>
+                <li><a href="https://www.linkedin.com/in/nikesh-shah-a88413237/"><img width="53px" src="/image/linkedin logo.png" alt="linkeden logo" class="linkedin"></a></li>
+                <li><a href="https://twitter.com/?lang=en"><img width="50px" src="/image/twitter logo.png" alt="twitter logo" class="twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- javascript -->
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/review.js"></script>
+    <script src="/javascript/app.js"></script>
+    <!-- body close -->
+</body>
+</html>
+<!-- html close -->
