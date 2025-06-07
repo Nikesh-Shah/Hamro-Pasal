@@ -41,7 +41,7 @@
 .product-heading .countdown div {
     margin: 5px;
     padding: 10px 20px 10px;
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     color: white;
     border-radius: 10%;
 }
