@@ -9,11 +9,15 @@ Hamro-Pasal is a static e-commerce web application designed to simulate a simple
 
 
 ## Screenshots
-
+Home page
 ![Home Page](screenshots/home.png)
+Product page
 ![Product Page](screenshots/product.png)
-![Product Page](screenshots/featiures.png)
-![Product Page](screenshots/login.png)
+Features
+![Features Page](screenshots/features.png)
+Login
+![Login Page](screenshots/login.png)
+Product
 ![Product Page](screenshots/signup.png)
 
 ## Technologies Used
